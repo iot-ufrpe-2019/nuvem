@@ -17,4 +17,5 @@ Após executar o comando descrito acima, você pode abrir o endereço `http://{y
 Você pode mudar a senha de cada conta na página do respectivo perfil.
 
 ## Referências
-[Installing ThingsBoard using Docker (Linux or Mac OS)](https://thingsboard.io/docs/user-guide/install/docker/)
+* [Installing ThingsBoard using Docker (Linux or Mac OS)](https://thingsboard.io/docs/user-guide/install/docker/)
+* [Repositório Oficial do ThingsBoard](https://github.com/thingsboard)

@@ -2,8 +2,6 @@
 Aqui estão alguns scripts e rotinas para validar e testar a implementação do ThingsBoard
 
 ## Referências
-* [Repositório Oficial do ThingsBoard](https://github.com/thingsboard)
-* [Instruções de uso com o Docker](https://thingsboard.io/docs/user-guide/install/docker/)
 * [Instruções de configuração básica](https://thingsboard.io/docs/getting-started-guides/helloworld/)
 * [Repositório com vários scripts](https://github.com/thingsboard/thingsboard.github.io/tree/master/docs/reference/resources)
 
