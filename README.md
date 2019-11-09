@@ -1,18 +1,20 @@
-# ThingsBoard - IoT
+# IOT UFRPE 2019 - Nuvem: ThingsBoard
 
-## Getting started
-Run `$ docker run -it -p 9090:9090 -p 1883:1883 -p 5683:5683/udp -v ~/.mytb-data:/data -v ~/.mytb-logs:/var/log/thingsboard --name mytb --restart always thingsboard/tb-postgres`
-or 
-Run `$ ./runDocker.sh`
+## Começando
+Executar `$ sudo ./runDocker.sh`
+ou \
+Executar `$ sudo docker run -it -p 9090:9090 -p 1883:1883 -p 5683:5683/udp -v ~/.mytb-data:/data -v ~/.mytb-logs:/var/log/thingsboard --name mytb --restart always thingsboard/tb-postgres`\
 
-## Using
-After executing this command you can open http://{your-host-ip}:9090 in you browser (for ex. http://localhost:9090). You should see ThingsBoard login page. Use the following default credentials:
+Obs.: o uso do `sudo` depende de como está a instalação do Docker
+
+## Usando
+Após executar o comando descrito acima, você pode abrir o endereço `http://{your-host-ip}:9090` pelo seu navegador web (por exemplo: http://localhost:9090). Você deverá ver a página de login do ThingsBoard. Use as seguintes credenciais para entrar:
 
  * Systen Administrator: sysadmin@thingsboard.org / sysadmin
  * Tenant Administrator: tenant@thingsboard.org / tenant
  * Customer User: customer@thingsboard.org / customer
 
-You can always change passwords for each account in account profile page.
+Você pode mudar a senha de cada conta na página do respectivo perfil.
 
-## References
+## Referências
 [Installing ThingsBoard using Docker (Linux or Mac OS)](https://thingsboard.io/docs/user-guide/install/docker/)
