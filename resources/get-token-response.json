@@ -1,0 +1,4 @@
+{
+    "token": "$YOUR_JWT_TOKEN",
+    "refreshToken": "$YOUR_JWT_REFRESH_TOKEN"
+}
